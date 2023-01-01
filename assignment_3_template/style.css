@@ -1,23 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&display=swap");
 
+@font-face {
+  font-family: "Amstelvar";
+  src: url("../fonts/amstelvar-roman.woff2");
+}
 
 /* Prevent padding and border from affecting element width. */
-*, ::before, ::after {
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 /* Remove the margin in all browsers */
 body {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    font-family: "Fraunces", serif;
-    background-color: darkgreen;
-    color: lightgreen;
-    transition: all 100ms ease;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-family: "Fraunces", serif;
+  background-color: darkgreen;
+  color: lightgreen;
+  transition: all 100ms ease;
+  font-family: "Amstelvar";
+}
+#text-input {
+  font-family: "Amstelvar";
 }
 
-#text {
-    margin: 10%;
-    font-size: 24px;
+input[type="text" i] {
+  font-family:'Courier New', Courier, monospace
 }
